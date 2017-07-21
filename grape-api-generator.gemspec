@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "grape", ">= 0.11.0"
   spec.add_runtime_dependency "grape-entity"
-  spec.add_runtime_dependency "grape-kaminari"
+  spec.add_runtime_dependency "grape-kaminari", github: 's-nasu/grape-kaminari'
   spec.add_runtime_dependency "grape-swagger"
   spec.add_runtime_dependency "hashie-forbidden_attributes"
 
